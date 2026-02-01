@@ -13,6 +13,20 @@ notify() {
 
 notify "Dotfiles" "Sync starting…"
 
+cd "$REPO_DIR"
+
+# If a remote exists, pull first when the repo is clean.
+# If the repo isn't clean, skip pulling (so you can add files and run this script in one go).
+if git remote get-url origin >/dev/null 2>&1; then
+  if git diff --quiet && git diff --cached --quiet; then
+    git fetch origin
+    # Pull with rebase to keep history linear
+    git pull --rebase
+  else
+    echo "Repo has local changes; skipping auto-pull." >&2
+  fi
+fi
+
 mkdir -p "$DST_CONFIG"
 
 # Allowlist what we actually want to version
@@ -26,6 +40,8 @@ INCLUDE=(
   "fish"
   "neofetch"
   "fastfetch"
+  "kitty"
+  "rofi"
 )
 
 # Also sync starship config (not under ~/.config on many setups)
@@ -45,8 +61,6 @@ for rel in "${INCLUDE[@]}"; do
     rsync -a --delete --exclude='.git' "$src" "$dst"
   fi
 done
-
-cd "$REPO_DIR"
 
 git add -A
 
