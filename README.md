@@ -1,12 +1,6 @@
-# dotfiles
+# Dotfiles
+These are my dotfiles - nothing special
+I made the scripts and stuff using AI
+This whole repo was made using OpenClaw/ClawdBot/Whatever you call it using gpt5. Really cool stuff. 
 
-Personal dotfiles for this machine.
-
-## Sync
-Run:
-
-```bash
-./sync-dotfiles.sh
-```
-
-This copies selected config files into this repo, commits, and (optionally) pushes.
+Feel free to copy these
