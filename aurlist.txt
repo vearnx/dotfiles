@@ -1,0 +1,12 @@
+alvr
+appimagelauncher
+docker-rootless-extras
+dotool
+hollywood
+lmstudio
+mpvpaper
+ngrok
+opencl-amd
+proton-ge-custom-bin
+spotify
+unetbootin

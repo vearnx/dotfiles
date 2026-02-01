@@ -44,12 +44,30 @@ INCLUDE=(
   "rofi"
 )
 
-# Also sync starship config (not under ~/.config on many setups)
+# Also sync starship config
 STARSHIP_SRC="$HOME/.config/starship.toml"
 STARSHIP_DST="$REPO_DIR/.config/starship.toml"
 if [ -f "$STARSHIP_SRC" ]; then
   mkdir -p "$(dirname "$STARSHIP_DST")"
   rsync -a "$STARSHIP_SRC" "$STARSHIP_DST"
+fi
+
+# Sync package lists (generated elsewhere)
+PKGLIST_SRC="/var/lib/pkglist.txt"
+AURLIST_SRC="/var/lib/aurlist.txt"
+PKGLIST_DST="$REPO_DIR/pkglist.txt"
+AURLIST_DST="$REPO_DIR/aurlist.txt"
+
+if [ -r "$PKGLIST_SRC" ]; then
+  rsync -a "$PKGLIST_SRC" "$PKGLIST_DST"
+else
+  echo "Warning: cannot read $PKGLIST_SRC (need sudo?)" >&2
+fi
+
+if [ -r "$AURLIST_SRC" ]; then
+  rsync -a "$AURLIST_SRC" "$AURLIST_DST"
+else
+  echo "Warning: cannot read $AURLIST_SRC (need sudo?)" >&2
 fi
 
 # rsync each include to avoid accidentally pulling giant dirs
