@@ -1,0 +1,25 @@
+# Never commit secrets
+**/*.key
+**/*.pem
+**/*token*
+**/*secret*
+**/auth-profiles.json
+**/cookies*
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Don't store huge stateful app data
+.config/chromium/
+.config/discord/
+.config/Code - OSS/
+.config/CurseForge/
+.config/r2modman/
+.config/r2modmanPlus-local/
+.config/lunarclient/
+.config/SideQuest/
+
+# If you ever copy more of systemd config, ignore env files
+.config/systemd/**/*.env
+.config/systemd/**/environment
