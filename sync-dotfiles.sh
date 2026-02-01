@@ -81,8 +81,10 @@ for rel in "${INCLUDE[@]}"; do
   src="$SRC_CONFIG/$rel"
   dst="$DST_CONFIG/$rel"
   if [ -e "$src" ]; then
-    mkdir -p "$(dirname "$dst")"
-    rsync -a --delete --exclude='.git' "$src" "$dst"
+    # Ensure destination dir exists (rsync behaves differently if dst doesn't exist)
+    mkdir -p "$dst"
+    # Trailing slashes ensure we sync the *contents* of the directory into dst
+    rsync -a --delete --exclude='.git' "$src/" "$dst/"
   fi
 done
 
