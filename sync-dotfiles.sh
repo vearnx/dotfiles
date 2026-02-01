@@ -24,6 +24,8 @@ INCLUDE=(
   "OpenRGB"
   "waybar"
   "fish"
+  "neofetch"
+  "fastfetch"
 )
 
 # Also sync starship config (not under ~/.config on many setups)
