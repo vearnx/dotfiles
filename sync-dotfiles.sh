@@ -16,7 +16,7 @@ notify "Dotfiles" "Sync starting…"
 cd "$REPO_DIR"
 
 # Update package lists before syncing them
-UPDATE_PKGLIST_SCRIPT="$HOME/backups/pacman+backups-scripts/update-pkglist"
+UPDATE_PKGLIST_SCRIPT="$HOME/dotfiles/pacman+backups-scripts/update-pkglist"
 if [ -x "$UPDATE_PKGLIST_SCRIPT" ]; then
   "$UPDATE_PKGLIST_SCRIPT" || echo "Warning: update-pkglist failed" >&2
 fi
