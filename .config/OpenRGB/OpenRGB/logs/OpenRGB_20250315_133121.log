@@ -1,0 +1,63 @@
+    OpenRGB v0.9+ (1.0rc1)
+    Commit: 1fbacdea373361ecd2e0780c1db15cc3eb9aa538 from 2025-02-22 11:06:06 -0600
+    Launched: 20250315_133121
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+6     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+6     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+7     |Info:    [ProfileManager] Valid v5 profile found for main
+61    |Info:    [ResourceManager] Initializing HID interfaces: Success
+61    |Info:    ------------------------------------------------------
+61    |Info:    |               Start device detection               |
+61    |Info:    ------------------------------------------------------
+61    |Info:    ------------------------------------------------------
+61    |Info:    |             Detecting I2C interfaces               |
+61    |Info:    ------------------------------------------------------
+61    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 8086:46A3 Subsystem: 103C:8A4F
+61    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 8086:46A3 Subsystem: 103C:8A4F
+61    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-17 Device 10DE:25A0 Subsystem: 103C:8A4F
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 8086:51A3 Subsystem: 103C:8A4F
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-ELAN0788:00 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-16 Device 10DE:25A0 Subsystem: 103C:8A4F
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 8086:46A3 Subsystem: 103C:8A4F
+62    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+62    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+62    |Info:    ------------------------------------------------------
+62    |Info:    |               Detecting I2C devices                |
+62    |Info:    ------------------------------------------------------
+106   |Info:    ------------------------------------------------------
+106   |Info:    |            Detecting I2C DIMM modules              |
+106   |Info:    ------------------------------------------------------
+106   |Info:    ------------------------------------------------------
+106   |Info:    |               Detecting I2C PCI devices            |
+106   |Info:    ------------------------------------------------------
+107   |Info:    ------------------------------------------------------
+107   |Info:    |               Detecting HID devices                |
+107   |Info:    ------------------------------------------------------
+107   |Info:    ------------------------------------------------------
+107   |Info:    |            Detecting libusb HID devices            |
+107   |Info:    ------------------------------------------------------
+114   |Info:    ------------------------------------------------------
+114   |Info:    |              Detecting other devices               |
+114   |Info:    ------------------------------------------------------
+135   |Info:    [ResourceManager] Calling Post-detection callbacks
+135   |Info:    ------------------------------------------------------
+135   |Info:    |                Detection completed                 |
+135   |Info:    ------------------------------------------------------
+135   |Dialog:  <h2>WARNING:</h2><p>Multiple OpenRGB udev rules are installed.</p><p>The udev rules file 60-openrgb.rules is installed in both /etc/udev/rules.d and /usr/lib/udev/rules.d.</p><p>Multiple udev rules files can conflict, it is recommended to remove one of them.</p>

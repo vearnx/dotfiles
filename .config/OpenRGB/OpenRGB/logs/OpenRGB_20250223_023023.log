@@ -1,0 +1,51 @@
+    OpenRGB v0.8
+    Commit: fb88964b8e514cdf4eb22da314e13f8db06a3636 from 2022-11-27 21:44:33 -0600
+    Launched: 20250223_023023
+====================================================================================================
+
+1009  |Info:    Saving detector settings
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Start device detection               |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    Initializing HID interfaces: Success
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    |             Detecting I2C interfaces               |
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:747E Subsystem: 1458:2413
+1015  |Info:    Registering I2C interface: /dev/i2c-10 Device 1002:164E Subsystem: 1462:7E26
+1015  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:747E Subsystem: 1458:2413
+1015  |Info:    Registering I2C interface: /dev/i2c-17 Device 1022:790B Subsystem: 1462:7E26
+1015  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:164E Subsystem: 1462:7E26
+1015  |Info:    Registering I2C interface: /dev/i2c-15 Device 1022:790B Subsystem: 1462:7E26
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:747E Subsystem: 1458:2413
+1016  |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1462:7E26
+1016  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:747E Subsystem: 1458:2413
+1016  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:747E Subsystem: 1458:2413
+1016  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:164E Subsystem: 1462:7E26
+1016  |Info:    Registering I2C interface: /dev/i2c-16 Device 1022:790B Subsystem: 1462:7E26
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:747E Subsystem: 1458:2413
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C devices                |
+1016  |Info:    ------------------------------------------------------
+1804  |Info:    ------------------------------------------------------
+1804  |Info:    |               Detecting I2C PCI devices            |
+1804  |Info:    ------------------------------------------------------
+1805  |Info:    ------------------------------------------------------
+1805  |Info:    |               Detecting HID devices                |
+1805  |Info:    ------------------------------------------------------
+1805  |Info:    ------------------------------------------------------
+1805  |Info:    |              Detecting other devices               |
+1805  |Info:    ------------------------------------------------------
+1810  |Info:    ------------------------------------------------------
+1810  |Info:    |                Detection completed                 |
+1810  |Info:    ------------------------------------------------------

@@ -1,0 +1,71 @@
+    OpenRGB v0.9+ (1.0rc1)
+    Commit: 1fbacdea373361ecd2e0780c1db15cc3eb9aa538 from 2025-02-22 11:06:06 -0600
+    Launched: 20250316_203124
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+0     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+2     |Info:    [ProfileManager] Valid v5 profile found for main
+60    |Info:    [ResourceManager] Initializing HID interfaces: Success
+60    |Info:    ------------------------------------------------------
+60    |Info:    |               Start device detection               |
+60    |Info:    ------------------------------------------------------
+63    |Info:    ------------------------------------------------------
+63    |Info:    |             Detecting I2C interfaces               |
+63    |Info:    ------------------------------------------------------
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1002:747E Subsystem: 1458:2413
+65    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1462:7E26
+65    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 1002:747E Subsystem: 1458:2413
+65    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:747E Subsystem: 1458:2413
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1462:7E26
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1002:747E Subsystem: 1458:2413
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1462:7E26
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1462:7E26
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1462:7E26
+66    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+66    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 1002:747E Subsystem: 1458:2413
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1462:7E26
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:747E Subsystem: 1458:2413
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1462:7E26
+66    |Info:    ------------------------------------------------------
+66    |Info:    |               Detecting I2C devices                |
+66    |Info:    ------------------------------------------------------
+1111  |Info:    ------------------------------------------------------
+1111  |Info:    |            Detecting I2C DIMM modules              |
+1111  |Info:    ------------------------------------------------------
+1954  |Info:    [ResourceManager] Detected occupied slot 2, bus 2, type DDR5
+2786  |Info:    [ResourceManager] Detected occupied slot 4, bus 2, type DDR5
+2816  |Info:    [ResourceManager] Detected occupied slot 2, bus 10, type DDR5
+2820  |Info:    [ResourceManager] Detected occupied slot 4, bus 10, type DDR5
+2844  |Info:    [ResourceManager] Detected occupied slot 2, bus 11, type DDR5
+2848  |Info:    [ResourceManager] Detected occupied slot 4, bus 11, type DDR5
+2879  |Info:    ------------------------------------------------------
+2879  |Info:    |               Detecting I2C PCI devices            |
+2879  |Info:    ------------------------------------------------------
+3058  |Info:    ------------------------------------------------------
+3058  |Info:    |               Detecting HID devices                |
+3058  |Info:    ------------------------------------------------------
+3125  |Info:    [MSI PRO B650-S WIFI (MS-7E26)] Registering RGB controller
+3126  |Info:    ------------------------------------------------------
+3126  |Info:    |            Detecting libusb HID devices            |
+3126  |Info:    ------------------------------------------------------
+3350  |Info:    ------------------------------------------------------
+3350  |Info:    |              Detecting other devices               |
+3350  |Info:    ------------------------------------------------------
+3452  |Info:    [ResourceManager] Calling Post-detection callbacks
+3452  |Info:    ------------------------------------------------------
+3452  |Info:    |                Detection completed                 |
+3452  |Info:    ------------------------------------------------------
+3452  |Dialog:  <h2>WARNING:</h2><p>Multiple OpenRGB udev rules are installed.</p><p>The udev rules file 60-openrgb.rules is installed in both /etc/udev/rules.d and /usr/lib/udev/rules.d.</p><p>Multiple udev rules files can conflict, it is recommended to remove one of them.</p>
+3468  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so has an incompatible API version
+3468  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be unloaded

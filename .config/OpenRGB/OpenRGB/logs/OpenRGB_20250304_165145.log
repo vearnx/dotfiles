@@ -1,0 +1,54 @@
+    OpenRGB v0.9+ (1.0rc1)
+    Commit: 1fbacdea373361ecd2e0780c1db15cc3eb9aa538 from 2025-02-22 11:06:06 -0600
+    Launched: 20250304_165145
+====================================================================================================
+
+8     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+10    |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+10    |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+16    |Info:    [ProfileManager] Valid v5 profile found for main
+102   |Info:    [ResourceManager] Initializing HID interfaces: Success
+103   |Info:    ------------------------------------------------------
+103   |Info:    |               Start device detection               |
+103   |Info:    ------------------------------------------------------
+105   |Info:    ------------------------------------------------------
+105   |Info:    |             Detecting I2C interfaces               |
+105   |Info:    ------------------------------------------------------
+106   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1022:780B Subsystem: 103C:22C5
+106   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 1002:990F Subsystem: 103C:22C5
+106   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1022:780B Subsystem: 103C:22C5
+107   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 1002:990F Subsystem: 103C:22C5
+107   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:990F Subsystem: 103C:22C5
+107   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1022:780B Subsystem: 103C:22C5
+108   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+108   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+108   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1022:780B Subsystem: 103C:22C5
+108   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1022:780B Subsystem: 103C:22C5
+109   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 1002:990F Subsystem: 103C:22C5
+109   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 1002:990F Subsystem: 103C:22C5
+109   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:990F Subsystem: 103C:22C5
+109   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+109   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+110   |Info:    ------------------------------------------------------
+110   |Info:    |               Detecting I2C devices                |
+110   |Info:    ------------------------------------------------------
+137   |Info:    ------------------------------------------------------
+137   |Info:    |            Detecting I2C DIMM modules              |
+137   |Info:    ------------------------------------------------------
+137   |Info:    ------------------------------------------------------
+137   |Info:    |               Detecting I2C PCI devices            |
+137   |Info:    ------------------------------------------------------
+141   |Info:    ------------------------------------------------------
+141   |Info:    |               Detecting HID devices                |
+141   |Info:    ------------------------------------------------------
+141   |Info:    ------------------------------------------------------
+141   |Info:    |            Detecting libusb HID devices            |
+141   |Info:    ------------------------------------------------------
+251   |Info:    ------------------------------------------------------
+251   |Info:    |              Detecting other devices               |
+251   |Info:    ------------------------------------------------------
+342   |Info:    [ResourceManager] Calling Post-detection callbacks
+342   |Info:    ------------------------------------------------------
+342   |Info:    |                Detection completed                 |
+342   |Info:    ------------------------------------------------------
+342   |Dialog:  <h2>WARNING:</h2><p>Multiple OpenRGB udev rules are installed.</p><p>The udev rules file 60-openrgb.rules is installed in both /etc/udev/rules.d and /usr/lib/udev/rules.d.</p><p>Multiple udev rules files can conflict, it is recommended to remove one of them.</p>

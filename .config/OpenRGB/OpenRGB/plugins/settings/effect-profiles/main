@@ -1,0 +1,128 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO B650-S WIFI (MS-7E26)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "7E2623032403",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO B650-S WIFI (MS-7E26)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "7E2623032403",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO B650-S WIFI (MS-7E26)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "7E2623032403",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 2
+                },
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO B650-S WIFI (MS-7E26)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "7E2623032403",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 3
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "groups": [
+                    {
+                        "composer_fn": 3,
+                        "layers": [
+                            {
+                                "composer_fn": 3,
+                                "effect_settings": {
+                                    "AllowOnlyFirst": false,
+                                    "Brightness": 100,
+                                    "CustomName": "",
+                                    "CustomSettings": {
+                                        "direction": 0
+                                    },
+                                    "EffectClassName": "Stack",
+                                    "FPS": 60,
+                                    "RandomColors": false,
+                                    "Slider2Val": 1,
+                                    "Speed": 6,
+                                    "Temperature": 0,
+                                    "Tint": 0,
+                                    "UserColors": [
+                                        16777215
+                                    ]
+                                }
+                            },
+                            {
+                                "composer_fn": 4,
+                                "effect_settings": {
+                                    "AllowOnlyFirst": false,
+                                    "Brightness": 100,
+                                    "CustomName": "",
+                                    "CustomSettings": {
+                                        "h": 1.0,
+                                        "invert_colors": false,
+                                        "w": 1.0,
+                                        "x": 0.0,
+                                        "y": 0.0
+                                    },
+                                    "EffectClassName": "Mask",
+                                    "FPS": 60,
+                                    "RandomColors": false,
+                                    "Slider2Val": 1,
+                                    "Speed": 1,
+                                    "Temperature": 0,
+                                    "Tint": 0,
+                                    "UserColors": [
+                                        16777215,
+                                        16777215
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "EffectClassName": "Layers",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 1,
+            "Temperature": 0,
+            "Tint": 0
+        }
+    ],
+    "version": 2
+}

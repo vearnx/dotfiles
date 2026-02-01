@@ -1,0 +1,16 @@
+[Unit]
+Description=Monitor Hypr and Waybar Folders for Changes
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /home/vearnx/.config/watchscript.sh
+Restart=always
+User=vearnx
+WorkingDirectory=/home/vearnx
+Environment=PATH=/usr/bin:/bin:/usr/sbin:/sbin
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
+

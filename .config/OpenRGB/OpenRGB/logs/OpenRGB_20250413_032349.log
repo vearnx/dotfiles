@@ -1,0 +1,48 @@
+    OpenRGB v0.9+ (1.0rc1)
+    Commit: 1fbacdea373361ecd2e0780c1db15cc3eb9aa538 from 2025-02-22 11:06:06 -0600
+    Launched: 20250413_032349
+====================================================================================================
+
+4     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+6     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+6     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+7     |Info:    [ProfileManager] Valid v5 profile found for main
+67    |Info:    [ResourceManager] Initializing HID interfaces: Success
+67    |Info:    ------------------------------------------------------
+67    |Info:    |               Start device detection               |
+67    |Info:    ------------------------------------------------------
+71    |Info:    ------------------------------------------------------
+71    |Info:    |             Detecting I2C interfaces               |
+71    |Info:    ------------------------------------------------------
+71    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 103C:85EA
+71    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1002:15D8 Subsystem: 103C:85EA
+71    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 103C:85EA
+71    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+71    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+72    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1002:15D8 Subsystem: 103C:85EA
+72    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1022:790B Subsystem: 103C:85EA
+72    |Info:    ------------------------------------------------------
+72    |Info:    |               Detecting I2C devices                |
+72    |Info:    ------------------------------------------------------
+1585  |Info:    ------------------------------------------------------
+1585  |Info:    |            Detecting I2C DIMM modules              |
+1585  |Info:    ------------------------------------------------------
+1772  |Info:    ------------------------------------------------------
+1772  |Info:    |               Detecting I2C PCI devices            |
+1772  |Info:    ------------------------------------------------------
+1778  |Info:    ------------------------------------------------------
+1778  |Info:    |               Detecting HID devices                |
+1778  |Info:    ------------------------------------------------------
+1778  |Info:    ------------------------------------------------------
+1778  |Info:    |            Detecting libusb HID devices            |
+1778  |Info:    ------------------------------------------------------
+1822  |Info:    ------------------------------------------------------
+1822  |Info:    |              Detecting other devices               |
+1822  |Info:    ------------------------------------------------------
+1864  |Info:    [ResourceManager] Calling Post-detection callbacks
+1864  |Info:    ------------------------------------------------------
+1865  |Info:    |                Detection completed                 |
+1865  |Info:    ------------------------------------------------------
+1865  |Dialog:  <h2>WARNING:</h2><p>Multiple OpenRGB udev rules are installed.</p><p>The udev rules file 60-openrgb.rules is installed in both /etc/udev/rules.d and /usr/lib/udev/rules.d.</p><p>Multiple udev rules files can conflict, it is recommended to remove one of them.</p>
+1914  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so has an incompatible API version
+1914  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be unloaded

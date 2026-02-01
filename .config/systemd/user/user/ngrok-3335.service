@@ -1,0 +1,14 @@
+[Unit]
+Description=ngrok tunnel for OpenClaw voice-call (port 3335)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=ngrok http 3335
+Restart=on-failure
+RestartSec=2
+KillSignal=SIGINT
+
+[Install]
+WantedBy=default.target

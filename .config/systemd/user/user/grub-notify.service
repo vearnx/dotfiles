@@ -1,0 +1,6 @@
+[Unit]
+Description=Notify when GRUB config is modified
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/grub-notify.sh

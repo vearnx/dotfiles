@@ -1,0 +1,63 @@
+    OpenRGB v0.9+ (git1290)
+    Commit: 45af044cd84032b9a9b5865cb5e12aa2cd98c47e from 2025-04-13 13:42:14 -0500
+    Launched: 20250517_141705
+====================================================================================================
+
+63    |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+75    |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+75    |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+78    |Info:    [ProfileManager] Valid v5 profile found for main
+136   |Info:    [ResourceManager] Initializing HID interfaces: Success
+136   |Info:    ------------------------------------------------------
+136   |Info:    |               Start device detection               |
+136   |Info:    ------------------------------------------------------
+138   |Info:    ------------------------------------------------------
+138   |Info:    |             Detecting I2C interfaces               |
+138   |Info:    ------------------------------------------------------
+138   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 8086:46A3 Subsystem: 103C:8A4F
+138   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+138   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:46A3 Subsystem: 103C:8A4F
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-17 Device 10DE:25A0 Subsystem: 103C:8A4F
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 8086:46A3 Subsystem: 103C:8A4F
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 8086:46A3 Subsystem: 103C:8A4F
+139   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 8086:46A3 Subsystem: 103C:8A4F
+139   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 8086:46A3 Subsystem: 103C:8A4F
+139   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 8086:46A3 Subsystem: 103C:8A4F
+140   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-ELAN0788:00 Device 0000:0000 Subsystem: 0000:0000
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-16 Device 10DE:25A0 Subsystem: 103C:8A4F
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 8086:46A3 Subsystem: 103C:8A4F
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-14 Device 8086:51A3 Subsystem: 103C:8A4F
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 8086:46A3 Subsystem: 103C:8A4F
+140   |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+140   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+140   |Info:    ------------------------------------------------------
+140   |Info:    |               Detecting I2C devices                |
+140   |Info:    ------------------------------------------------------
+187   |Info:    ------------------------------------------------------
+187   |Info:    |            Detecting I2C DIMM modules              |
+187   |Info:    ------------------------------------------------------
+187   |Info:    ------------------------------------------------------
+187   |Info:    |               Detecting I2C PCI devices            |
+187   |Info:    ------------------------------------------------------
+189   |Info:    ------------------------------------------------------
+189   |Info:    |               Detecting HID devices                |
+189   |Info:    ------------------------------------------------------
+189   |Info:    ------------------------------------------------------
+189   |Info:    |            Detecting libusb HID devices            |
+189   |Info:    ------------------------------------------------------
+196   |Info:    ------------------------------------------------------
+196   |Info:    |              Detecting other devices               |
+196   |Info:    ------------------------------------------------------
+229   |Info:    [ResourceManager] Calling Post-detection callbacks
+229   |Info:    ------------------------------------------------------
+229   |Info:    |                Detection completed                 |
+229   |Info:    ------------------------------------------------------
+229   |Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>

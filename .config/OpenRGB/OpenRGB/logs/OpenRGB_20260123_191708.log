@@ -1,0 +1,9 @@
+    OpenRGB v0.9+ (git1702)
+    Commit: 269e7c6115c2f7017aab6b22811445e229184588 from 2025-11-10 01:01:39 -0600
+    Launched: 20260123_191708
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+0     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for main

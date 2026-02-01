@@ -1,0 +1,44 @@
+    OpenRGB v0.9+ (git1290)
+    Commit: 45af044cd84032b9a9b5865cb5e12aa2cd98c47e from 2025-04-13 13:42:14 -0500
+    Launched: 20250518_190107
+====================================================================================================
+
+31    |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+85    |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+85    |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+92    |Info:    [ProfileManager] Valid v5 profile found for main
+156   |Info:    [ResourceManager] Initializing HID interfaces: Success
+156   |Info:    ------------------------------------------------------
+156   |Info:    |               Start device detection               |
+156   |Info:    ------------------------------------------------------
+158   |Info:    ------------------------------------------------------
+158   |Info:    |             Detecting I2C interfaces               |
+158   |Info:    ------------------------------------------------------
+159   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2487 Subsystem: 1462:397D
+159   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:2487 Subsystem: 1462:397D
+159   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2487 Subsystem: 1462:397D
+159   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2487 Subsystem: 1462:397D
+159   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 8086:1C22 Subsystem: 103C:2ABF
+159   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2487 Subsystem: 1462:397D
+159   |Info:    ------------------------------------------------------
+159   |Info:    |               Detecting I2C devices                |
+159   |Info:    ------------------------------------------------------
+159   |Info:    ------------------------------------------------------
+159   |Info:    |            Detecting I2C DIMM modules              |
+159   |Info:    ------------------------------------------------------
+159   |Info:    ------------------------------------------------------
+159   |Info:    |               Detecting I2C PCI devices            |
+159   |Info:    ------------------------------------------------------
+160   |Info:    ------------------------------------------------------
+160   |Info:    |               Detecting HID devices                |
+160   |Info:    ------------------------------------------------------
+160   |Info:    ------------------------------------------------------
+160   |Info:    |            Detecting libusb HID devices            |
+160   |Info:    ------------------------------------------------------
+170   |Info:    ------------------------------------------------------
+170   |Info:    |              Detecting other devices               |
+170   |Info:    ------------------------------------------------------
+228   |Info:    [ResourceManager] Calling Post-detection callbacks
+228   |Info:    ------------------------------------------------------
+228   |Info:    |                Detection completed                 |
+228   |Info:    ------------------------------------------------------

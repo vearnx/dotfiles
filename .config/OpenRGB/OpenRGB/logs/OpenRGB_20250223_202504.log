@@ -1,0 +1,13 @@
+    OpenRGB v0.9+ (1.0rc1)
+    Commit: 1fbacdea373361ecd2e0780c1db15cc3eb9aa538 from 2025-02-22 11:06:06 -0600
+    Launched: 20250223_202504
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+278   |Info:    [ResourceManager] Calling Post-detection callbacks
+279   |Info:    ------------------------------------------------------
+279   |Info:    |                Detection completed                 |
+279   |Info:    ------------------------------------------------------
+9508  |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+9508  |Info:    [ProfileManager] Valid v5 profile found for Skibbidi

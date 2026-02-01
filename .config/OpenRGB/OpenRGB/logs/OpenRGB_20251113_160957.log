@@ -1,0 +1,69 @@
+    OpenRGB v0.9+ (git1660)
+    Commit: 93dd7f21226f93a7b5ddd49c1eed89ed9d535e54 from 2025-09-28 01:57:07 -0500
+    Launched: 20251113_160957
+====================================================================================================
+
+1     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+1     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+1     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+2     |Info:    [ProfileManager] Valid v5 profile found for main
+58    |Info:    [ResourceManager] Initializing HID interfaces: Success
+58    |Info:    ------------------------------------------------------
+58    |Info:    |               Start device detection               |
+58    |Info:    ------------------------------------------------------
+67    |Info:    ------------------------------------------------------
+67    |Info:    |             Detecting I2C interfaces               |
+67    |Info:    ------------------------------------------------------
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1002:747E Subsystem: 1458:2413
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 1002:164E Subsystem: 1462:7E26
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1002:747E Subsystem: 1458:2413
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-19 Device 1022:790B Subsystem: 1462:7E26
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-17 Device 1022:790B Subsystem: 1462:7E26
+68    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+68    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:747E Subsystem: 1458:2413
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1462:7E26
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1002:747E Subsystem: 1458:2413
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1462:7E26
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1002:747E Subsystem: 1458:2413
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-18 Device 1022:790B Subsystem: 1462:7E26
+69    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+69    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 1002:747E Subsystem: 1458:2413
+69    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:747E Subsystem: 1458:2413
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1462:7E26
+69    |Info:    ------------------------------------------------------
+69    |Info:    |               Detecting I2C devices                |
+69    |Info:    ------------------------------------------------------
+1102  |Info:    ------------------------------------------------------
+1102  |Info:    |            Detecting I2C DIMM modules              |
+1102  |Info:    ------------------------------------------------------
+2092  |Info:    [ResourceManager] Detected occupied slot 2, bus 4, type DDR5
+3060  |Info:    [ResourceManager] Detected occupied slot 4, bus 4, type DDR5
+3129  |Info:    ------------------------------------------------------
+3129  |Info:    |               Detecting I2C PCI devices            |
+3129  |Info:    ------------------------------------------------------
+3240  |Info:    [Gigabyte Radeon RX 7800 XT GAMING OC] Registering RGB controller
+3309  |Info:    ------------------------------------------------------
+3309  |Info:    |               Detecting HID devices                |
+3309  |Info:    ------------------------------------------------------
+3377  |Info:    [MSI PRO B650-S WIFI (MS-7E26)] Registering RGB controller
+3377  |Info:    ------------------------------------------------------
+3377  |Info:    |            Detecting libusb HID devices            |
+3377  |Info:    ------------------------------------------------------
+3387  |Info:    ------------------------------------------------------
+3387  |Info:    |              Detecting other devices               |
+3387  |Info:    ------------------------------------------------------
+3473  |Info:    [ResourceManager] Calling Post-detection callbacks
+3473  |Info:    ------------------------------------------------------
+3473  |Info:    |                Detection completed                 |
+3473  |Info:    ------------------------------------------------------
+3480  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so has an incompatible API version
+3480  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be unloaded
