@@ -22,7 +22,17 @@ INCLUDE=(
   "systemd/user"
   "gtk-3.0"
   "OpenRGB"
+  "waybar"
+  "fish"
 )
+
+# Also sync starship config (not under ~/.config on many setups)
+STARSHIP_SRC="$HOME/.config/starship.toml"
+STARSHIP_DST="$REPO_DIR/.config/starship.toml"
+if [ -f "$STARSHIP_SRC" ]; then
+  mkdir -p "$(dirname "$STARSHIP_DST")"
+  rsync -a "$STARSHIP_SRC" "$STARSHIP_DST"
+fi
 
 # rsync each include to avoid accidentally pulling giant dirs
 for rel in "${INCLUDE[@]}"; do
