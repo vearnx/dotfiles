@@ -1,0 +1,4 @@
+#!/bin/bash
+pacman -Qqen > /var/lib/pkglist.txt
+pacman -Qqem > /var/lib/aurlist.txt
+

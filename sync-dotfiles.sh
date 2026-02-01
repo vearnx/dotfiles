@@ -15,6 +15,12 @@ notify "Dotfiles" "Sync starting…"
 
 cd "$REPO_DIR"
 
+# Update package lists before syncing them
+UPDATE_PKGLIST_SCRIPT="$HOME/backups/pacman+backups-scripts/update-pkglist"
+if [ -x "$UPDATE_PKGLIST_SCRIPT" ]; then
+  "$UPDATE_PKGLIST_SCRIPT" || echo "Warning: update-pkglist failed" >&2
+fi
+
 # If a remote exists, pull first when the repo is clean.
 # If the repo isn't clean, skip pulling (so you can add files and run this script in one go).
 if git remote get-url origin >/dev/null 2>&1; then

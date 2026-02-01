@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Updating installed package list...
+When = PostTransaction
+Exec = /home/vearnx/backups/pacman+backups-scripts/update-pkglist
+
