@@ -1,0 +1,69 @@
+    OpenRGB v0.9+ (git1836)
+    Commit: 70be81c92d36c071eb8d909e4223d79d0897575a from 2026-01-27 10:54:51 -0600
+    Launched: 20260201_132014
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Skibbidi.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for Skibbidi
+0     |Info:    [ProfileManager] Found file: main.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for main
+52    |Info:    [ResourceManager] Initializing HID interfaces: Success
+52    |Info:    ------------------------------------------------------
+52    |Info:    |               Start device detection               |
+52    |Info:    ------------------------------------------------------
+60    |Info:    ------------------------------------------------------
+60    |Info:    |             Detecting I2C interfaces               |
+60    |Info:    ------------------------------------------------------
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-3) Device 1002:747E Subsystem: 1458:2413
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-10) Device 1002:164E Subsystem: 1462:7E26
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU SMU 0 (/dev/i2c-1) Device 1002:747E Subsystem: 1458:2413
+61    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 1 at 0b20 (/dev/i2c-19) Device 1022:790B Subsystem: 1462:7E26
+61    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-17) Device 1022:790B Subsystem: 1462:7E26
+61    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 1 (/dev/i2c-8) Device 0000:0000 Subsystem: 0000:0000
+61    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-15) Device 0000:0000 Subsystem: 0000:0000
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-6) Device 1002:747E Subsystem: 1458:2413
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-13) Device 1002:164E Subsystem: 1462:7E26
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-4) Device 1002:747E Subsystem: 1458:2413
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-11) Device 1002:164E Subsystem: 1462:7E26
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU SMU 1 (/dev/i2c-2) Device 1002:747E Subsystem: 1458:2413
+61    |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 0000:0000 Subsystem: 0000:0000
+61    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 2 at 0b00 (/dev/i2c-18) Device 1022:790B Subsystem: 1462:7E26
+61    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-9) Device 0000:0000 Subsystem: 0000:0000
+61    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 3 (/dev/i2c-16) Device 0000:0000 Subsystem: 0000:0000
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c OEM bus (/dev/i2c-7) Device 1002:747E Subsystem: 1458:2413
+61    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 1 (/dev/i2c-14) Device 0000:0000 Subsystem: 0000:0000
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-5) Device 1002:747E Subsystem: 1458:2413
+61    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-12) Device 1002:164E Subsystem: 1462:7E26
+61    |Info:    ------------------------------------------------------
+61    |Info:    |               Detecting I2C devices                |
+61    |Info:    ------------------------------------------------------
+1034  |Info:    ------------------------------------------------------
+1034  |Info:    |            Detecting I2C DIMM modules              |
+1034  |Info:    ------------------------------------------------------
+1080  |Info:    [ResourceManager] Detected occupied slot 2, bus 4, type DDR5
+1085  |Info:    [ResourceManager] Detected occupied slot 4, bus 4, type DDR5
+1154  |Info:    ------------------------------------------------------
+1154  |Info:    |               Detecting I2C PCI devices            |
+1154  |Info:    ------------------------------------------------------
+1157  |Info:    [Gigabyte Radeon RX 7800 XT GAMING OC] Registering RGB controller
+1157  |Info:    ------------------------------------------------------
+1157  |Info:    |               Detecting HID devices                |
+1157  |Info:    ------------------------------------------------------
+1226  |Info:    [MSI PRO B650-S WIFI (MS-7E26)] Registering RGB controller
+1227  |Info:    ------------------------------------------------------
+1228  |Info:    |            Detecting libusb HID devices            |
+1228  |Info:    ------------------------------------------------------
+1237  |Info:    ------------------------------------------------------
+1237  |Info:    |              Detecting other devices               |
+1237  |Info:    ------------------------------------------------------
+1256  |Info:    [ResourceManager] Calling Post-detection callbacks
+1256  |Info:    ------------------------------------------------------
+1256  |Info:    |                Detection completed                 |
+1256  |Info:    ------------------------------------------------------
+1260  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so has an incompatible API version
+1260  |Warning: [PluginManager] Plugin /home/vearnx/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so cannot be unloaded
