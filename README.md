@@ -5,4 +5,5 @@ This whole repo was made using OpenClaw/ClawdBot/Whatever you call it using gpt5
 
 Feel free to copy these
 This also includes my Package list - Kinda like NixOS but for Arch. 
+
 ^ I might try NixOS again ngl it was a decent distro
