@@ -1,4 +1,5 @@
 alvr
+android-sdk-platform-tools
 appimagelauncher
 docker-rootless-extras
 dotool
