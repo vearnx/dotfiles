@@ -130,6 +130,7 @@ iwd
 jdk8-openjdk
 jfsutils
 jre-openjdk
+jre21-openjdk
 kitty
 kpipewire
 kstatusnotifieritem
