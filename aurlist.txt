@@ -10,5 +10,5 @@ ngrok
 opencl-amd
 proton-ge-custom-bin
 spotify
-ttf-merriweather-sans
+ttf-oswald
 unetbootin
