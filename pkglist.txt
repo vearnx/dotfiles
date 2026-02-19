@@ -1,7 +1,4 @@
 accountsservice
-adobe-source-code-pro-fonts
-adobe-source-sans-fonts
-adobe-source-serif-fonts
 alacritty
 alsa-firmware
 alsa-plugins
@@ -189,7 +186,6 @@ noto-color-emoji-fontconfig
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-noto-fonts-extra
 npm
 nss-mdns
 ntp
@@ -261,21 +257,11 @@ texinfo
 tk
 tmux
 totem
-ttf-anonymous-pro
 ttf-bitstream-vera
-ttf-caladea
-ttf-croscore
 ttf-dejavu
-ttf-fira-mono
-ttf-fira-sans
-ttf-inconsolata
-ttf-lato
 ttf-liberation
 ttf-meslo-nerd
 ttf-opensans
-ttf-roboto
-ttf-roboto-mono
-ttf-ubuntu-font-family
 udiskie
 ufw
 unrar
