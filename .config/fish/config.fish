@@ -16,3 +16,6 @@ set -gx PATH $PATH /home/vearnx/.lmstudio/bin
 if test -d $HOME/.npm-global/bin
     set -gx PATH $PATH $HOME/.npm-global/bin
 end
+
+# OpenClaw Completion
+source "/home/vearnx/.openclaw/completions/openclaw.fish"
