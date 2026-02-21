@@ -62,15 +62,14 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
-    color: #000000;
-    background-color: #FFB000;
+    color: #FFB000;
     border-radius: 0px;
-    margin-right: 0px;
+    margin-right: 5px;
 }
 
 #workspaces button:hover {
     background:#000000;
-    color: #000000;
+    color: #ffffff;
 }
 
 #workspaces button.focused {
@@ -145,36 +144,36 @@ button:hover {
 }
 
 #battery {
-    background-color: #FFB000;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
-    color: #000000;
+    color: #ffffff;
     background-color: #26A65B;
 }
 
 @keyframes blink {
     to {
-        background-color: #FFB000;
-        color: #000000;
+        background-color: #000000;
+        color: #ffffff;
     }
 }
 
 #custom-media {
-   color: #000000;
-   background-color: #FFB000;
+   color: #ffffff;
+   background-color: #000000;
 }
 
 #custom-spotify {
-   color: #000000;
-   background-color: #FFB000;
+   color: #ffffff;
+   background-color: #000000;
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #f53c3c;
-    color: #000000;
+    color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -188,12 +187,12 @@ button:hover {
 
 #power-profiles-daemon.performance {
     background-color: #f53c3c;
-    color: #000000;
+    color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
     background-color: #2980b9;
-    color: #000000;
+    color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
@@ -202,7 +201,7 @@ button:hover {
 }
 
 label:focus {
-    background-color: #FFB000;
+    background-color: #000000;
 }
 
 #cpu {
@@ -216,8 +215,8 @@ label:focus {
 }
 
 #custom-all {
-    color: #000000;
-    background-color: #FFB000
+    color: #ffffff;
+    background-color: #000000
 } 
 
 #disk {
@@ -229,8 +228,8 @@ label:focus {
 }
 
 #network {
-    background-color: #FFB000;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 #network.disconnected {
@@ -238,13 +237,13 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #FFB000 ;
-    color: #000000;
+    background-color: ;
+    color: #ffffff;
 }
 
 #pulseaudio.muted {
-    background-color: #FFB000;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 #wireplumber {
@@ -276,12 +275,12 @@ label:focus {
 
 #tray {
     background-color: transparent;
-    color: #000000;
+    color: #ffffff;
 }
 
 #tray > .active {
-    background-color: #FFB000;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 
@@ -313,7 +312,7 @@ label:focus {
 }
 
 #mpd.stopped {
-    background-color: #90b1b1;
+    background-color: #90b1b1;n
 }
 
 #mpd.paused {

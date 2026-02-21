@@ -2,20 +2,23 @@
     "margin-top": 3,
     "margin-right": 3,
     "margin-left": 3,
-    "position": "top",
-    "height": 24,
-    "spacing": 3,
+    "position": "right",
+    "height": 60,
+    "spacing": 6,
     "modules-left": [
+        "hyprland/workspaces",
+        "sway/mode",
+        "sway/scratchpad",
     ],
     "modules-center": [
-    	"clock",
-	"hyprland/workspaces",
-	"pulseaudio",
-	"network",
+        "clock"
     ],
     "modules-right": [
+        "pulseaudio",
+        "network",
         "battery",
         "battery#bat2",
+        "custom/power"
     ],
     "keyboard-state": {
         "numlock": true,
@@ -46,7 +49,8 @@
        "return-type": "json",
        "exec": "waybar_media_display",
        "on-click":"playerctl --player=spotify play-pause",
-       "escape": true},
+       "escape": true,
+    },
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format-disconnected": "Disconnected ",
@@ -82,15 +86,15 @@
     },
     "tray": {
         "spacing": 3,
-        "height": 26
+        "height":26,
+ }
+   ,"clock": {
+    	"interval": 60,
+    	"tooltip": false,
+    	"format": "{:%I:%M %p\n%m/%d/%Y}",
+    	"tooltip-format": "{:%A %m/%d/%Y}",
+ }
     },
-    "clock": {
-        "interval": 60,
-        "tooltip": false,
-        "format": "{:%I:%M %p - %m/%d/%Y}",
-        "tooltip-format": "{:%A %m/%d/%Y}"
-    },
-
     "cpu": {
         "format": "CPU: {usage}%",
         "tooltip": false
@@ -100,7 +104,8 @@
     },
   "custom/all": {
     "exec": "~/.config/waybar/scripts/all_usage.sh",
-    "interval": 1}
+    "interval": 1,
+}
    , "temperature": {
         "critical-threshold": 80,
         "format": "{temperatureC}°C {icon}",
@@ -141,16 +146,18 @@
      "modules":[
               "network",
                "pulseaudio",
-               "battery"]
+               "battery",
+           ]
 },
     "network": {
         "format-wifi": "{essid} ({signalStrength}%)",
-        "format-ethernet": "Connected - Wired",
+        "format-ethernet": "",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected",
-        "format-alt": "{ipaddr}",
-        "on-click": "kitty nmtui"},
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "kitty nmtui",
+    },
     "pulseaudio": {
         "format": "  {volume}%  {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",

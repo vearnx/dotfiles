@@ -115,6 +115,7 @@ gvfs-wsdd
 gwenview
 haveged
 hdparm
+helvum
 htop
 hwdetect
 hwinfo

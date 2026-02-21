@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export --path PATH:/home/vearnx/eww/target/release/eww\x1e/home/vearnx/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/var/lib/snapd/snap/bin
 SETUVAR __fish_initialized:4300
+SETUVAR __fish_webconfig_theme_notification:set\x2dtheme\x2dv1\x2d\x231
 SETUVAR --export fish_user_paths:/home/vearnx/\x2enpm\x2dglobal/bin
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_check_for_new_release:false
