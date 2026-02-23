@@ -53,6 +53,7 @@ cppdap
 cpupower
 cronie
 cryptsetup
+davinci-resolve
 decibels
 device-mapper
 dhclient
