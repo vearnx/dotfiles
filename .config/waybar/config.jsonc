@@ -6,14 +6,14 @@
     "height": 24,
     "spacing": 3,
     "modules-left": [
+	"custom/separator",    
+	"clock",
     ],
     "modules-center": [
-    	"clock",
 	"hyprland/workspaces",
-	"pulseaudio",
-	"network",
     ],
     "modules-right": [
+	"pulseaudio",
         "battery",
         "battery#bat2",
     ],
@@ -71,8 +71,14 @@
             "playing": ""
         },
         "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
+      	"tooltip-format-disconnected": "MPD (disconnected)"
+    },	
+	"custom/separator": {
+		"format": " > ",
+		"tooltip": false
+	},
+ 
+
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {

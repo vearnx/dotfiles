@@ -214,6 +214,7 @@ podman
 polkit-kde-agent
 poppler-glib
 power-profiles-daemon
+prismlauncher
 proton-cachyos
 protonup-qt
 pv

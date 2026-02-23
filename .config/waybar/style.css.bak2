@@ -62,15 +62,15 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
-    color: #FFB000;
-    background-color: #000000;
+    color: #000000;
+    background-color: #FFB000;
     border-radius: 0px;
     margin-right: 0px;
 }
 
 #workspaces button:hover {
     background:#000000;
-    color: #FFB000;
+    color: #000000;
 }
 
 #workspaces button.focused {
@@ -113,7 +113,7 @@ button:hover {
 #custom-spotify
 #mpd {
     padding: 0 10px;
-    color: #FFB000;
+    color: #000000;
 }
 
 #window,
@@ -125,7 +125,7 @@ button:hover {
 
 
 #workspaces {
-    margin: 1 0px;
+    margin: 0 4px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -139,43 +139,42 @@ button:hover {
 }
 
 #clock {
-    color: #FFB000;
-    background-color: #000000;
+    color: #000000;
+    background-color: #FFB000;
     border-radius: 0px;
-    margin: 1px;
 }
 
 #battery {
-    background-color: #000000;
-    color: #FFB000;
+    background-color: #FFB000;
+    color: #000000;
 }
 
 #battery.charging, #battery.plugged {
-    color: #FFB000;
+    color: #000000;
     background-color: #26A65B;
 }
 
 @keyframes blink {
     to {
-        background-color: #000000;
-        color: #FFB000;
+        background-color: #FFB000;
+        color: #000000;
     }
 }
 
 #custom-media {
-   color: #FFB000;
-   background-color: #000000;
+   color: #000000;
+   background-color: #FFB000;
 }
 
 #custom-spotify {
-   color: #FFB000;
-   background-color: #000000;
+   color: #000000;
+   background-color: #FFB000;
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #f53c3c;
-    color: #FFB000;
+    color: #000000;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -189,36 +188,36 @@ button:hover {
 
 #power-profiles-daemon.performance {
     background-color: #f53c3c;
-    color: #FFB000;
+    color: #000000;
 }
 
 #power-profiles-daemon.balanced {
     background-color: #2980b9;
-    color: #FFB000;
+    color: #000000;
 }
 
 #power-profiles-daemon.power-saver {
     background-color: #2ecc71;
-    color: #FFB000;
+    color: #000000;
 }
 
 label:focus {
-    background-color: #000000;
+    background-color: #FFB000;
 }
 
 #cpu {
     background-color: #ffffff;
-    color: #FFB000;
+    color: #000000;
 }
 
 #memory {
     background-color: #ffffff;
-    color: #FFB000;
+    color: #000000;
 }
 
 #custom-all {
-    color: #FFB000;
-    background-color: #000000
+    color: #000000;
+    background-color: #FFB000
 } 
 
 #disk {
@@ -230,8 +229,8 @@ label:focus {
 }
 
 #network {
-    background-color: #000000;
-    color: #FFB000;
+    background-color: #FFB000;
+    color: #000000;
 }
 
 #network.disconnected {
@@ -239,19 +238,18 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #000000;
-    color: #FFB000;
-    margin: 1px;
+    background-color: #FFB000 ;
+    color: #000000;
 }
 
 #pulseaudio.muted {
-    background-color: #000000;
-    color: #FFB000;
+    background-color: #FFB000;
+    color: #000000;
 }
 
 #wireplumber {
     background-color: #ffffff;
-    color: #FFB000;
+    color: #000000;
 }
 
 #wireplumber.muted {
@@ -278,12 +276,12 @@ label:focus {
 
 #tray {
     background-color: transparent;
-    color: #FFB000;
+    color: #000000;
 }
 
 #tray > .active {
-    background-color: #000000;
-    color: #FFB000;
+    background-color: #FFB000;
+    color: #000000;
 }
 
 
@@ -332,7 +330,7 @@ label:focus {
 
 #keyboard-state {
     background: #97e1ad;
-    color: #FFB000;
+    color: #000000;
     padding: 0 0px;
     margin: 0 5px;
     min-width: 16px;
@@ -360,7 +358,7 @@ label:focus {
 
 #privacy-item {
     padding: 0 5px;
-    color: #FFB000;
+    color: white;
 }
 
 #privacy-item.screenshare {
@@ -385,5 +383,4 @@ padding: 1px 5px 3px 3px;
 #custom-separator {
 	background-color: #000000;
 	color: #CC8C00;
-	margin: 1px;
 }
