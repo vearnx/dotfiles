@@ -1,3 +1,4 @@
+3utools-desktop-bin
 alvr
 android-sdk-platform-tools
 appimagelauncher
