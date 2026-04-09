@@ -261,6 +261,7 @@ reflector
 rhash
 ripgrep
 rofi
+rpi-imager
 rsync
 rtkit
 rust

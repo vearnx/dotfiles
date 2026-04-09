@@ -1,0 +1,21 @@
+[Unit]
+Description=OpenClaw Gateway (v2026.1.29)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart="/usr/bin/node" "/home/vearnx/.npm-global/lib/node_modules/openclaw/dist/index.js" gateway --port 18789
+Restart=always
+RestartSec=5
+KillMode=process
+Environment=HOME=/home/vearnx
+Environment="PATH=/home/vearnx/.local/bin:/home/vearnx/.npm-global/bin:/home/vearnx/bin:/home/vearnx/.nvm/current/bin:/home/vearnx/.fnm/current/bin:/home/vearnx/.volta/bin:/home/vearnx/.asdf/shims:/home/vearnx/.local/share/pnpm:/home/vearnx/.bun/bin:/usr/local/bin:/usr/bin:/bin"
+Environment=OPENCLAW_GATEWAY_PORT=18789
+Environment=OPENCLAW_GATEWAY_TOKEN=14c3ad6ad65f46f1bc890a22fa00df9acd76d9f176486484
+Environment="OPENCLAW_SYSTEMD_UNIT=openclaw-gateway.service"
+Environment=OPENCLAW_SERVICE_MARKER=openclaw
+Environment=OPENCLAW_SERVICE_KIND=gateway
+Environment=OPENCLAW_SERVICE_VERSION=2026.1.29
+
+[Install]
+WantedBy=default.target
