@@ -4,6 +4,7 @@ appimagelauncher
 docker-rootless-extras
 dotool
 hollywood
+iloader-bin
 lmstudio
 mpvpaper
 ngrok
