@@ -163,6 +163,7 @@ jfsutils
 jre-openjdk
 jre21-openjdk
 kitty
+kiwix-desktop
 kpipewire
 kstatusnotifieritem
 lact
