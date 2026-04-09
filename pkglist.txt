@@ -183,6 +183,7 @@ linux-cachyos-lts
 linux-cachyos-lts-headers
 linux-firmware
 linux-headers
+localsend
 logrotate
 loupe
 lsb-release
