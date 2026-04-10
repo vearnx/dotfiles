@@ -135,7 +135,6 @@ gvfs
 gvfs-afc
 gvfs-dnssd
 gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
@@ -156,7 +155,7 @@ hyprpolkitagent
 inetutils
 inotify-tools
 intel-media-driver
-iptables-nft
+iptables
 iwd
 jdk8-openjdk
 jfsutils
