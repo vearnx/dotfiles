@@ -1163,6 +1163,7 @@
             "Gigabyte Radeon RX 9070 GAMING OC": true,
             "Gigabyte Radeon RX 9070 XT GAMING": true,
             "Gigabyte Radeon RX 9070 XT GAMING OC": true,
+            "Gigabyte Radeon RX 9070 XT GAMING OC ICE": true,
             "Glorious Model D / D-": true,
             "Glorious Model D / D- Wireless": true,
             "Glorious Model I": true,
@@ -1453,6 +1454,7 @@
             "MSI GeForce RTX 4070 Gaming X Slim White": true,
             "MSI GeForce RTX 4070 Gaming X Trio": true,
             "MSI GeForce RTX 4070 SUPER Gaming X Slim": true,
+            "MSI GeForce RTX 4070 SUPER Gaming X Slim MLG": true,
             "MSI GeForce RTX 4070 SUPER Gaming X Slim White": true,
             "MSI GeForce RTX 4070 Ti Gaming X Slim White": true,
             "MSI GeForce RTX 4070 Ti Gaming X Trio": true,
@@ -2274,7 +2276,9 @@
             "iGame GeForce RTX 4070 Ti SUPER Ultra W": true,
             "iGame GeForce RTX 4070 Vulcan OC-V": true,
             "iGame GeForce RTX 4080 Ultra W OC-V": true,
-            "iGame GeForce RTX 4090 Advanced OC-V": true
+            "iGame GeForce RTX 4090 Advanced OC-V": true,
+            "iGame GeForce RTX 5060 Ti Ultra W DUO OC": true,
+            "iGame GeForce RTX 5070 Ultra W OC-V": true
         }
     },
     "Gigabyte RGB Fusion 2 SMBus": {
