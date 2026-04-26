@@ -4,6 +4,7 @@ android-sdk-platform-tools
 appimagelauncher
 docker-rootless-extras
 dotool
+gpu-screen-recorder-gtk
 hollywood
 iloader-bin
 lmstudio
