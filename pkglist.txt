@@ -121,6 +121,7 @@ gnome-user-share
 gnome-weather
 go
 goverlay
+gpu-screen-recorder
 grilo-plugins
 grim
 grub
