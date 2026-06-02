@@ -254,6 +254,7 @@ pv
 python
 python-defusedxml
 python-packaging
+python-pip
 qemu-full
 qt5-quickcontrols
 qt5-quickcontrols2

@@ -19,3 +19,6 @@ end
 
 # OpenClaw Completion
 source "/home/vearnx/.openclaw/completions/openclaw.fish"
+
+# Hermes Agent — ensure ~/.local/bin is on PATH
+fish_add_path "$HOME/.local/bin"
