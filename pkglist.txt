@@ -271,6 +271,7 @@ rtkit
 rust
 rygel
 s-nail
+sbctl
 scdoc
 sddm
 setconf
