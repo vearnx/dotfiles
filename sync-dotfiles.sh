@@ -48,6 +48,8 @@ INCLUDE=(
   "fastfetch"
   "kitty"
   "rofi"
+  "niri"
+  "DankMaterialShell"
 )
 
 # Also sync starship config
