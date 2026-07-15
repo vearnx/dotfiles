@@ -1,0 +1,14 @@
+[Unit]
+Description=Local Voice Assistant Listener
+After=pipewire.service ollama-local.service
+Wants=ollama-local.service
+
+[Service]
+Type=simple
+ExecStart=/home/vearnx/local-assistant/.venv/bin/python /home/vearnx/local-assistant/listener.py
+WorkingDirectory=/home/vearnx/local-assistant
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

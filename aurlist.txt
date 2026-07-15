@@ -7,11 +7,12 @@ dotool
 gpu-screen-recorder-gtk
 hollywood
 iloader-bin
+lm-studio
 lmstudio
-mpvpaper
 ngrok
 opencl-amd
 proton-ge-custom-bin
 spotify
 ttf-google-fonts-git
 unetbootin
+xwaylandvideobridge

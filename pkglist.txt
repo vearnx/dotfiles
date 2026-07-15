@@ -61,6 +61,7 @@ diffutils
 distrobox
 dmidecode
 dmraid
+dms-shell-niri
 dnsmasq
 docker
 docker-compose
@@ -85,6 +86,7 @@ flatpak
 flatseal
 freedownloadmanager
 fsarchiver
+fuzzel
 gamemode
 gamescope
 gdm
@@ -183,6 +185,7 @@ linux-cachyos-lts
 linux-cachyos-lts-headers
 linux-firmware
 linux-headers
+lmms
 localsend
 logrotate
 loupe
@@ -195,6 +198,7 @@ malcontent
 man-db
 man-pages
 mangohud
+matugen
 mdadm
 meld
 memtest86+-efi
@@ -202,6 +206,7 @@ mesa-utils
 micro
 mkinitcpio
 modemmanager
+mpvpaper
 mtools
 nano
 nano-syntax-highlighting
@@ -213,6 +218,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+niri
 nmap
 nodejs
 noto-color-emoji-fontconfig
@@ -248,7 +254,8 @@ polkit-kde-agent
 poppler-glib
 power-profiles-daemon
 prismlauncher
-proton-cachyos
+proton-cachyos-native
+proton-cachyos-slr
 protonup-qt
 pv
 python
@@ -350,5 +357,6 @@ xorg-xinput
 xorg-xkill
 xorg-xrandr
 xorg-xwayland
+xwayland-satellite
 ydotool
 yelp

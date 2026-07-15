@@ -1,0 +1,13 @@
+[Unit]
+Description=Ollama local model server (user install)
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/vearnx/.local/bin/ollama serve
+Restart=on-failure
+RestartSec=3
+Environment=OLLAMA_HOST=127.0.0.1:11434
+
+[Install]
+WantedBy=default.target
