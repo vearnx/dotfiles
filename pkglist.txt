@@ -158,6 +158,7 @@ hyprpolkitagent
 inetutils
 inotify-tools
 intel-media-driver
+iperf3
 iptables
 iwd
 jdk8-openjdk
@@ -321,7 +322,7 @@ veracrypt
 vim
 virt-manager
 virtualbox
-virtualbox-host-modules-arch
+virtualbox-host-dkms
 vlc-plugins-all
 vulkan-headers
 vulkan-intel
